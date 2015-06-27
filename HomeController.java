@@ -19,14 +19,7 @@ public class HomeController extends AbstractController {
 		return mav;
 	}
 	
-	@Override
-	protected ModelAndView handleRequestInternal(HttpServletRequest request,
-			HttpServletResponse response) throws Exception {
-		ModelAndView mav= new ModelAndView("Home");
-		
-		mav.addObject("welcomeMessage","Hi ! This is the dailyX Page");
-		mav.addObject("Lakshya","Lakshya.mp4");
-		return mav;
+	
 	}
 	
 	
